@@ -5,7 +5,8 @@ target 'nMessenger' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-
+  # Pods for nMessenger
+pod 'AsyncDisplayKit', :git => 'https://github.com/facebook/AsyncDisplayKit.git', :tag => '2.0-beta.3'
 
   target 'nMessengerTests' do
     inherit! :search_paths
